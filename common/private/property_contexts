@@ -1,3 +1,6 @@
+# Boost Framework
+persist.sys.power_mode_limit_cpus         u:object_r:cpu_limit_prop:s0
+
 # ATV
 # used by mediashell
 ro.odm.cast.ssid_suffix u:object_r:odm_cast_prop:s0
