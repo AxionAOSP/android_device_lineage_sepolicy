@@ -27,3 +27,6 @@ add_service(system_server, app_lock_service);
 
 # Game Space
 add_service(system_server, game_space_service);
+
+# Freeform
+add_service(system_server, freeform_service);
