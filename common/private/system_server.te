@@ -23,7 +23,7 @@ get_prop(system_server, vendor_persist_camera_prop)
 set_prop(system_server, xtra_control_prop)
 
 # App lock
-add_service(system_server, app_lock_service);
+add_service(system_server, ax_sandbox_service);
 
 # Game Space
 add_service(system_server, game_space_service);
