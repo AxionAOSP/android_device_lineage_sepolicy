@@ -18,3 +18,6 @@
 
 # Bash
 /(system_ext|system/system_ext)/bin/bash          u:object_r:shell_exec:s0
+
+# TrickyStore
+/data/adb/tricky_store(/.*)?                      u:object_r:trickystore_data_file:s0
