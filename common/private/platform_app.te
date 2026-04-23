@@ -11,6 +11,3 @@ hal_client_domain(platform_app, hal_lineage_powershare)
 get_prop(platform_app, usb_uvc_enabled_prop)
 
 get_prop(platform_app, bluetooth_lea_prop)
-
-# Custom ROM Hide
-allow platform_app custom_rom_hide_data_file:file { create open read write getattr setattr unlink };

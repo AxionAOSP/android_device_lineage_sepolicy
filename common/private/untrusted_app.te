@@ -2,9 +2,3 @@ allow untrusted_app_all lineage_profile_service:service_manager find;
 allow untrusted_app_all theme_engine_service:service_manager find;
 
 allow isolated_app adb_data_file:dir { search getattr };
-
-# Custom ROM Hide
-allow untrusted_app_all custom_rom_hide_data_file:file { open read getattr };
-allow gmscore_app custom_rom_hide_data_file:file { open read getattr };
-allow priv_app custom_rom_hide_data_file:file { open read getattr };
-allow isolated_app custom_rom_hide_data_file:file { open read getattr };
