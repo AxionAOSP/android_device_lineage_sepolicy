@@ -17,3 +17,6 @@ freeform_overlay                              u:object_r:freeform_service:s0
 
 # Theme Engine
 theme_engine                                  u:object_r:theme_engine_service:s0
+
+# LinearMotor
+linearmotor                               u:object_r:linearmotor_vibrator_service:s0
